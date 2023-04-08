@@ -11,8 +11,44 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     color: chocolate;
+    width: 250px;
+    position: relative;
+   left: 400px;
 }
 
 h3{
     color: crimson;
 }
+
+.my-div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    padding-left: 30px;
+    border: 10px solid red;
+    margin-left: 40px;
+}
+
+.pos{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    position: sticky;
+    top: 0;
+}
+
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+}
+
