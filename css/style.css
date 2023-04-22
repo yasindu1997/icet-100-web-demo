@@ -42,6 +42,7 @@ h3{
     height: 500px;
     background-color: chartreuse;
     position: relative;
+    margin-left: 50vw;
 }
 
 .child{
@@ -49,6 +50,15 @@ h3{
     height: 100px;
     background-color: red;
     position: absolute;
-    top: 10px;
+    top: 30%;
+
+}
+
+.my-para{
+    color: blue !important;
+}
+
+#our-para{
+    color: deeppink;
 }
 
