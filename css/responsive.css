@@ -1,0 +1,25 @@
+.para{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn1{
+    margin-left: 300px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid green;
+    color: white;
+}
+
+/* responsive media quary */
+@media screen and (max-width:375px) {
+    .btn1{
+        margin-left: 50px;
+        background-color: red;
+        padding: 5px;
+        border-radius: 100px;
+        border: 1px solid green;
+        color: white;
+    }
+}

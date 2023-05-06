@@ -62,3 +62,16 @@ h3{
     color: deeppink;
 }
 
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: #ffd700;
+    flex: 1;
+    border: 2px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
